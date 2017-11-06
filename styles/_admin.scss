@@ -1,0 +1,22 @@
+.container {
+  &--admin {
+    .left {
+      padding-top: 40px;
+    }
+    .right {
+      padding-top: 90px;
+      .managerHeader {
+        font-size: 18px;
+      }
+      .selection {
+        width: 100%;
+      }
+    }
+    .table {
+      background-color: #FFF;
+      .imgInTD {
+        max-height: 100px;
+      }
+    }
+  }
+}
